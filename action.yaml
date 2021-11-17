@@ -1,0 +1,10 @@
+name: "get-version-from-tag"
+description: "Get version from GitHub tag name"
+
+outputs:
+  version:
+    description: "Version from GitHub tag name"
+
+runs:
+  using: "node12"
+  main: "dist/index.js"

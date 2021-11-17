@@ -1,0 +1,19 @@
+{
+  "name": "get-version-from-tag",
+  "version": "1.0.0",
+  "description": "Get version number from GitHub tag",
+  "main": "src/index.js",
+  "scripts": {
+    "package": "ncc build --license licenses.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paweł Wichary",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "1.6.0",
+    "@actions/github": "5.0.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "0.32.0"
+  }
+}
